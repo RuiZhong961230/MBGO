@@ -1,8 +1,10 @@
 # MBGO
 Multiplayer battle game-inspired optimizer for complex optimization problems
 
-Necessary packages: opfunu and enoppy.
+## Abstract
+Various popular multiplayer battle royale games share a lot of common elements. Drawing from our observations, we summarized these shared characteristics and subsequently proposed a novel heuristic algorithm named multiplayer battle game-inspired optimizer (MBGO). The proposed MBGO streamlines mainstream multiplayer battle royale games into two discrete phases: movement and battle. Specifically, the movement phase incorporates the principles of commonly encountered “safe zones” to incentivize participants to relocate to areas with a higher survival potential. The battle phase simulates a range of strategies players adopt in various situations to enhance the diversity of the population. To evaluate and analyze the performance of the proposed MBGO, we executed it alongside ten other algorithms, including three classics and five latest ones, across multiple diverse dimensions within the CEC2017 and CEC2020 benchmark functions. In addition, we employed several industrial design problems to evaluate the scalability and practicality of the proposed MBGO. The statistical analysis results reveal that the novel MBGO demonstrates significant competitiveness, excelling in convergence speed and achieving high levels of convergence accuracy across both benchmark functions and real-world problems.
 
+## Citation
 @article{Xu:24,  
 title={Multiplayer battle game-inspired optimizer for complex optimization problems},  
 author={Yuefeng, Xu and Rui, Zhong and Chao, Zhang and Jun, Yu},  
@@ -12,3 +14,6 @@ year={2024},
 publisher={Springer},  
 doi = {https://doi.org/10.1007/s10586-024-04448-w },  
 }
+
+## Datasets and Libraries
+CEC benchmarks are provided by the opfunu library and engineering problems are provided by the enoppy library.
