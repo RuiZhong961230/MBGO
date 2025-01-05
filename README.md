@@ -7,10 +7,11 @@ Various popular multiplayer battle royale games share a lot of common elements. 
 ## Citation
 @article{Xu:24,  
 title={Multiplayer battle game-inspired optimizer for complex optimization problems},  
-author={Yuefeng, Xu and Rui, Zhong and Chao, Zhang and Jun, Yu},  
+author={Yuefeng Xu and Rui Zhong and Chao Zhang and Jun Yu},  
 journal={Cluster Computing},  
-pages={},  
 year={2024},  
+volume={27},  
+pages={8307–8331},  
 publisher={Springer},  
 doi = {https://doi.org/10.1007/s10586-024-04448-w },  
 }
